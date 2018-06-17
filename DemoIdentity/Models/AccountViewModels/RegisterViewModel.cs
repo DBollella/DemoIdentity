@@ -14,6 +14,10 @@ namespace DemoIdentity.Models.AccountViewModels
         public string Email { get; set; }
 
         [Required]
+        [MaxLength(11)]
+        public string CPF { get; set; }
+
+        [Required]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
