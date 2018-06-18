@@ -12,6 +12,7 @@ using Microsoft.Extensions.Options;
 using DemoIdentity.Models;
 using DemoIdentity.Models.AccountViewModels;
 using DemoIdentity.Services;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace DemoIdentity.Controllers
 {
@@ -117,6 +118,13 @@ namespace DemoIdentity.Controllers
                     Email = model.Email,
                     CPF = model.CPF
                 };
+
+                user.Claims.Add(new IdentityUserClaim<string>
+                {
+                    ClaimType = "HomeClaim",
+                    ClaimValue = "v1"
+                });
+
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {                  
