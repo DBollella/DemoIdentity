@@ -47,6 +47,11 @@ namespace DemoIdentity
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("AcessoHome", policy => policy.RequireClaim("HomeClaim"));
+            });
+
             services.AddMvc();
 
             // Add application services.
