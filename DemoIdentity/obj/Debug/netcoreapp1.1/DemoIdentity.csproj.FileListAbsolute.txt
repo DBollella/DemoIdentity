@@ -5,7 +5,6 @@ C:\Users\dougl\source\repos\DemoIdentity\DemoIdentity\bin\Debug\netcoreapp1.1\De
 C:\Users\dougl\source\repos\DemoIdentity\DemoIdentity\bin\Debug\netcoreapp1.1\DemoIdentity.pdb
 C:\Users\dougl\source\repos\DemoIdentity\DemoIdentity\obj\Debug\netcoreapp1.1\DemoIdentity.csprojAssemblyReference.cache
 C:\Users\dougl\source\repos\DemoIdentity\DemoIdentity\obj\Debug\netcoreapp1.1\DemoIdentity.csproj.CoreCompileInputs.cache
-C:\Users\dougl\source\repos\DemoIdentity\DemoIdentity\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
 C:\Users\dougl\source\repos\DemoIdentity\DemoIdentity\obj\Debug\netcoreapp1.1\DemoIdentity.AssemblyInfoInputs.cache
 C:\Users\dougl\source\repos\DemoIdentity\DemoIdentity\obj\Debug\netcoreapp1.1\DemoIdentity.AssemblyInfo.cs
 C:\Users\dougl\source\repos\DemoIdentity\DemoIdentity\obj\Debug\netcoreapp1.1\DemoIdentity.dll
